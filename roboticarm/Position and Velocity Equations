@@ -1,0 +1,26 @@
+Picture unavailible
+Angle:		Starting Location:	Direction	
+Θ1		X axis			Counterclockwise to -Z
+Θ2		D1 lll D2		Clockwise from D1
+Θ3		D2 ll D3			Counterclockwise from D2
+Θ4				
+Θ5		D3 lll D4		
+Θ6		 
+
+Point:		Location:[U]		Orientation:{V}
+A		(0,0,0)			cos(Θ1)i– sin(Θ1)k
+B		D1{A}			-cos(Θ2){A}+ sin(Θ2)j
+C		D2{B}+[B]		-cos(Θ2- Θ3){A}+sin(Θ2 – Θ3)j
+D		D3{C}+[C]			
+E		D4{D}+[D]		
+F		D5{E}+[E]		{E}
+
+l=cos(Θ2- Θ3)cos(Θ1)i +sin(Θ1)j –cos(Θ2- Θ3)sin(Θ1)k 
+m= cos(Θ1)sin(Θ2- Θ3)i- cos(Θ2- Θ3)  j- sin(Θ1) sin(Θ2- Θ3)k
+n=-sin(Θ1)i –cos(Θ1) k
+
+Unit vectors l, m, and n are to be used to find the orientation of D and E. 
+
+Velocity is simply the time derivative of the position.
+
+Some of the theta primes are not equal to the omegas, but have ratios that need to be factored in.
